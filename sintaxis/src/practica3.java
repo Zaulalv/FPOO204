@@ -20,15 +20,35 @@ public class practica3 {
 
          /*Programa #2
 
-         System.out.println("Ingrese sus primeros dos nombres: ");
-         String nombres = scn.nextLine();
+          System.out.println("Introduce tu nombre completo: ");
+          String nombreCompleto = scn.nextLine();
+          System.out.println(nombreCompleto.toLowerCase());
+          System.out.println(nombreCompleto.toUpperCase());
+          String[] palabras = nombreCompleto.split(" ");
+          StringBuilder nombreCapitalizado = new StringBuilder();
+          for (String palabra : palabras) {
+              nombreCapitalizado.append(Character.toUpperCase(palabra.charAt(0)))
+                                .append(palabra.substring(1).toLowerCase())
+                                .append(" ");
+          }
+          System.out.println(nombreCapitalizado.toString().trim());
 
-         System.out.println("Ingrese su apellido paterno: ");
-         String apellidoPaterno = scn.nextLine();
 
-         System.out.println("Ingrese su apellido materno: ");
-         String apellidoMaterno = scn.nextLine();
+          /* Programa #3
+
+          System.out.println("Introduce tu nombre:  ");
+          String nombre = scn.nextLine();
+          System.out.println(nombre.toUpperCase() + " tiene " + nombre.length() + " letras");
           */
+
+          // Programa #4
+          System.out.println("Introduce un entero X: ");
+          int x = scn.nextInt();
+          int suma = 0;
+          for (int i = 1; i <= x; i++) {
+              suma += i;
+          }
+          System.out.println("La suma de todos los enteros desde 1 hasta " + x + " es: " + suma);
 
           /*Prigrama #5
 
@@ -46,7 +66,7 @@ public class practica3 {
           System.out.println("El total de peso del paquete es de: " + pesoTotal + " gramos");
            */
 
-           //Programa #6 
+           /*Programa #6 
 
            System.out.println("Introduzca una frase: ");
            String frase = scn.nextLine();
@@ -55,6 +75,7 @@ public class practica3 {
 
            System.out.println("Frase Original: " +frase);
            System.out.println("Frase al reves: " + sb.reverse().toString());
+            */
 
     }
 }
