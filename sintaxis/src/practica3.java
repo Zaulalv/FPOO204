@@ -30,7 +30,7 @@ public class practica3 {
          String apellidoMaterno = scn.nextLine();
           */
 
-          //Prigrama #5
+          /*Prigrama #5
 
           int payaso, muñeca;
           payaso = 112;
@@ -44,6 +44,17 @@ public class practica3 {
 
           int pesoTotal = (numPayasos * payaso) + (numMuñecas * muñeca);
           System.out.println("El total de peso del paquete es de: " + pesoTotal + " gramos");
+           */
+
+           //Programa #6 
+
+           System.out.println("Introduzca una frase: ");
+           String frase = scn.nextLine();
+
+           StringBuilder sb = new StringBuilder(frase);
+
+           System.out.println("Frase Original: " +frase);
+           System.out.println("Frase al reves: " + sb.reverse().toString());
 
     }
 }
