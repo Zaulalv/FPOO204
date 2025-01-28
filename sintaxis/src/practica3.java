@@ -6,19 +6,19 @@ public class practica3 {
 
          Scanner scn = new Scanner(System.in);
 
-         /*Programa #1
+         //Programa #1
 
          System.out.println("Ingrese numero de horas trabajadas: ");
          int horasTrabajadas = scn.nextInt();
 
          System.out.println("Ingrese coste por hora tarbajada: ");
          double costeHora = scn.nextDouble();
-
+         
          System.out.println("Usted cobrara: " + horasTrabajadas * costeHora);
 
-          */
+        
 
-         /*Programa #2
+         //Programa #2
 
           System.out.println("Introduce tu nombre completo: ");
           String nombreCompleto = scn.nextLine();
@@ -34,12 +34,12 @@ public class practica3 {
           System.out.println(nombreCapitalizado.toString().trim());
 
 
-          /* Programa #3
+          // Programa #3
 
           System.out.println("Introduce tu nombre:  ");
           String nombre = scn.nextLine();
           System.out.println(nombre.toUpperCase() + " tiene " + nombre.length() + " letras");
-          */
+          
 
           // Programa #4
           System.out.println("Introduce un entero X: ");
@@ -50,7 +50,7 @@ public class practica3 {
           }
           System.out.println("La suma de todos los enteros desde 1 hasta " + x + " es: " + suma);
 
-          /*Prigrama #5
+          //Prigrama #5
 
           int payaso, muñeca;
           payaso = 112;
@@ -64,9 +64,9 @@ public class practica3 {
 
           int pesoTotal = (numPayasos * payaso) + (numMuñecas * muñeca);
           System.out.println("El total de peso del paquete es de: " + pesoTotal + " gramos");
-           */
+           
 
-           /*Programa #6 
+           //Programa #6 
 
            System.out.println("Introduzca una frase: ");
            String frase = scn.nextLine();
@@ -75,7 +75,7 @@ public class practica3 {
 
            System.out.println("Frase Original: " +frase);
            System.out.println("Frase al reves: " + sb.reverse().toString());
-            */
+            
 
     }
 }
